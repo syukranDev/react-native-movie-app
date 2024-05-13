@@ -2,7 +2,7 @@ import { View, Text, Image } from 'react-native'
 import React from 'react'
 import { ScrollView, TouchableOpacity } from 'react-native'
 import { useRouter } from 'expo-router'
-import { imageFetch185 } from '../api/moviedb'
+import { fetchCastDetails, imageFetch185 } from '../api/moviedb'
 
 const CastList = ({cast}) => {
     const router = useRouter();
@@ -18,7 +18,7 @@ const CastList = ({cast}) => {
                 {
                     cast && cast.map((person, index) => {
                         return (
-                            <TouchableOpacity key={index} className="mr-4 items-center" onPress={() => router.push({pathname: 'person', params: { person }})}>
+                            <TouchableOpacity key={index} className="mr-4 items-center" onPress={() => router.push({pathname: 'person', params: { cast_id: person.id }})}>
                                 <View className="overflow-hidden rounded-full h-20 w-20 items-center border border-neutral-500">
                                     <Image
                                         source={{uri: imageFetch185(person.profile_path)}}
