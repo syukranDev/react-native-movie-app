@@ -1,51 +1,21 @@
-# Welcome to your Expo app 👋
-
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
-
-## Get started
-
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
 # react-native-movie-app
+
+playground to test few packages on iphone 15 pro max simulator
+
+## Backend 
+API from themoviedb.org 
+
+## Screenshots
+
+
+<img src="https://github.com/syukranDev/react-native-movie-app/assets/51852197/51b19b56-7ad7-4966-a648-94622348bb95" width="300">
+<img src="https://github.com/syukranDev/react-native-movie-app/assets/51852197/4d3f9a99-0856-417c-a8ad-12b23b024f85" width="300">
+<img src="https://github.com/syukranDev/react-native-movie-app/assets/51852197/420cb647-9d03-41e3-b844-5897351b480a" width="300">
+
+<img src="https://github.com/syukranDev/react-native-movie-app/assets/51852197/d663f4ca-3658-4c4c-bf8a-2f9c814d2af9" width="300">
+<img src="https://github.com/syukranDev/react-native-movie-app/assets/51852197/c6469ed5-c379-4976-a974-0c8678523e23" width="300">
+<img src="https://github.com/syukranDev/react-native-movie-app/assets/51852197/e5b4a526-4f2a-4c66-9ad5-2f7cf93ff137" width="300">
+<img src="https://github.com/syukranDev/react-native-movie-app/assets/51852197/4f12f52b-27dc-417d-8a92-d58d9bf66332" width="300">
+<img src="https://github.com/syukranDev/react-native-movie-app/assets/51852197/420cb647-9d03-41e3-b844-5897351b480a" width="300">
+
+
